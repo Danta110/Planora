@@ -8,13 +8,13 @@
     "start": "node src/server.js"
   },
   "engines": {
-  "node": "20.x"
-},
+    "node": "20.x"
+  },
   "dependencies": {
+    "better-sqlite3": "^12.10.0",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
-    "express": "^4.21.2",
-    "sqlite3": "^6.0.1"
+    "express": "^4.21.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
